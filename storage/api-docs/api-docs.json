@@ -1,0 +1,39 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My First API",
+        "version": "0.1"
+    },
+    "paths": {
+        "/api/get_faqs": {
+            "get": {
+                "operationId": "010e008deec18a763b082ed06e291dc8",
+                "responses": {
+                    "200": {
+                        "description": "An example endpoint"
+                    }
+                }
+            }
+        },
+        "/api/register_client": {
+            "get": {
+                "operationId": "5753b17c69617d15eb99e8452c7af227",
+                "responses": {
+                    "200": {
+                        "description": "An example endpoint"
+                    }
+                }
+            }
+        },
+        "/api/client_login": {
+            "get": {
+                "operationId": "172d90ea210c15f740f35eb114a0d01d",
+                "responses": {
+                    "200": {
+                        "description": "An example endpoint"
+                    }
+                }
+            }
+        }
+    }
+}
